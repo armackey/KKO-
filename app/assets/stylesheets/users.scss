@@ -3,81 +3,267 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-// #first-picture {
-//   background: url(http://amyclarkefilms.com/wp-content/uploads/2012/09/filming-in-the-desrt.jpg) no-repeat 100% 0 fixed;
-//   min-height: 1000px;
-//   height: 1000px; 
-//   margin: 0 auto; 
-//   width: 100%; 
-//   max-width: 1920px; 
-//   position: relative; 
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   font-family: 'PT Serif', serif;
-//   text-shadow: 2px 2px #000;
-// }
+iframe {
+  min-height: 965px;
+  height: 965px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: absolute; 
+  
+}
 
-// #second-picture { 
-//   background: url(http://gamerhorizon.com/wp-content/uploads/2013/07/AC-Commerical-set.jpg) no-repeat 100% 0 fixed;
-//   min-height: 1000px; 
-//   height: 1000px; 
-//   margin: 0 auto; 
-//   width: 100%; 
-//   max-width: 1920px; 
-//   position: relative; 
-//   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   color: white;
-//   font-family: 'PT Serif', serif;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   padding-top: 50%;
-//   }
+section {
+  h2 {
+    color: black;
+    font-size: 36px;
+  }
+}
 
-  #youtube {
+#box {
+  background-color: white;
+  width: 700px;
+  height: 590px;
+  opacity: 0.7;
+  position: relative;
+  top: -395px;
+  right: -200px;
+    p {
+      color: black;
+      text-align: center;
+      font-size: 26px;
+      font-family: 'Patua One', cursive;
+    }
+}
 
+#second-picture { 
+  background: url(http://oyster.ignimgs.com/wordpress/write.ign.com/154159/2014/03/titan-1.jpg) repeat 100% 0;
+  min-height: 1150px;
+  height: 1150px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  color: white;
+  font-family: 'PT Serif', serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50%;
+  top: 200px;
+  }
+
+#third-picture { 
+  background: url(http://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png) repeat 100% 0  ; 
+  min-height: 1100px;
+  height: 110px;  
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  color: white;
+  font-family: 'PT Serif', serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50%;
+  top: -480px;
+  }
+
+#fourth-picture { 
+  background: url(http://prodcentral.com/wp-content/uploads/2013/10/gerber-commercial-set-and-crew-production-web.jpg) 50% 0 no-repeat; 
+  min-height: 1150px; 
+  height: 1150px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  font-family: 'PT Serif', serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 30%;
+  top: -1150px;
+  }
+
+.parallax__layer--back {
+  transform: translateZ(-1px);
+  min-height: 0px;
+  height: 0px; 
+  
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+
+}
+
+  .parallax {
+    height: 0px; /* fallback for older browsers */
+    height: 200vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
 
   }
-// #third-picture { 
-//   background: url(http://students.purchase.edu/terence.gardner/how_to/how_to/images/ACSFS_O_001_Film-Set1.jpg) 50% 0 no-repeat fixed; 
-//   min-height: 1000px; 
-//   height: 1000px; 
-//   margin: 0 auto; 
-//   width: 100%; 
-//   max-width: 1920px; 
-//   position: relative; 
-//   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   color: white;
-//   font-family: 'PT Serif', serif;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   padding-top: 50%;
-//   }
 
-// #fourth-picture { 
-//   background: url(http://prodcentral.com/wp-content/uploads/2013/10/gerber-commercial-set-and-crew-production-web.jpg) 50% 0 no-repeat; 
-//   min-height: 1000px; 
-//   height: 1000px; 
-//   margin: 0 auto; 
-//   width: 100%; 
-//   max-width: 1920px; 
-//   position: relative; 
-//   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-//   font-family: 'PT Serif', serif;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   padding-top: 30%;
-//   }
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform-origin-x: 100%;
+    transform-origin-x: 100%;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+    height: 0px;
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    z-index: 3;
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+  }
+
+
+  /* demo styles
+  --------------------------------------------- */
+
+  body, html {
+    overflow: hidden;
+  }
+
+  body {
+    font: 100% / 1.5 Arial;
+  }
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  .parallax {
+    font-size: 200%;
+  }
+
+   /* centre the content in the parallax layers */
+  .title {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  /* style the groups
+  --------------------------------------------- */
+
+  #group1 {
+    z-index: 5; /* slide over group 2 */
+  }
+  #group1 .parallax__layer--base {
+    background: red;
+  }
+
+  #group2 {
+    z-index: 3; /* slide under groups 1 and 3 */
+  }
+  // #group2 .parallax__layer--back {
+  //   background: orange;
+  // }
+
+  #group3 {
+    z-index: 4; /* slide over group 2 and 4 */
+  }
+  #group3 .parallax__layer--base {
+    background: yellow;
+    position: relative;
+    top: 0px;
+  }
+
+  #group4 {
+    z-index: 2; /* slide under group 3 and 5 */
+  }
+  #group4 .parallax__layer--deep {
+    background: white;
+  }
+
+  #group5 {
+    z-index: 3; /* slide over group 4 and 6 */
+  }
+  // #group5 .parallax__layer--base {
+  //   background: blue;
+  // }
+
+  // #group6 {
+  //   z-index: 2; /* slide under group 5 and 7 */
+  // }
+  // #group6 .parallax__layer--back {
+  //   background: blue;
+  // }
+
+  // #group7 {
+  //   z-index: 3; /* slide over group 7 */
+  // }
+  #group7 .parallax__layer--base {
+    background: blue;
+  }
+
+
+  /* misc
+  --------------------------------------------- */
+  .demo__info {
+    position: absolute;
+    z-index:100;
+    bottom: 1vh;
+    top: auto;
+    font-size:80%;
+    text-align:center;
+    width: 100%;
+  }
+
 
 
 
