@@ -3,13 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-iframe {
-  min-height: 965px;
-  height: 965px; 
+.video {
+  min-height: 925px;
+  height: 925px; 
+  height: 100%;
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
-  position: absolute; 
+  position: relative;
+  top: 85px;
+
+
+  
+
   
 }
 
@@ -20,14 +26,14 @@ section {
   }
 }
 
-#box {
+.box {
   background-color: white;
-  width: 700px;
-  height: 590px;
+  // width: 700px;
+  // height: 150px;
   opacity: 0.7;
   position: relative;
-  top: -395px;
-  right: -200px;
+  top: -380px;
+  // right: -200px;
     p {
       color: black;
       text-align: center;
@@ -36,10 +42,29 @@ section {
     }
 }
 
+.col-sm-10 {
+  top: 150px;
+  
+}
+
+.col-md-8 {
+  top: -40px;
+  
+}
+
+.col-xs-10 {
+  top: 350px;
+  
+    p {
+      font-size: 20px;
+  }
+}
+
+
 #second-picture { 
   background: url(http://oyster.ignimgs.com/wordpress/write.ign.com/154159/2014/03/titan-1.jpg) repeat 100% 0;
-  min-height: 1150px;
-  height: 1150px; 
+  min-height: 1000px;
+  height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -92,7 +117,7 @@ section {
   -o-background-size: cover;
   background-size: cover;
   padding-top: 30%;
-  top: -1150px;
+  top: -950px;
   }
 
 .parallax__layer--back {
